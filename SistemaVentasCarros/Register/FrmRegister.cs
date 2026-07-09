@@ -22,7 +22,7 @@ namespace SistemaVentasCarros
         {
             if (string.IsNullOrEmpty(txt_username.Text) && string.IsNullOrEmpty(txt_password.Text))
             {
-                MessageBox.Show("Por favor llena todos los campos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Por favor llena todos los campo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         
                 ClsRequest clsUsers = new ClsRequest
